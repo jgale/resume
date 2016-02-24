@@ -135,6 +135,6 @@ on their phone, request available shifts, and exchange shifts with co-workers
 
 ### Footer {#footer}
 
-Jeremy Gale -- [jeremy@jeremygale.com](jeremy@jeremygale.com)
+Jeremy Gale -- [jeremy@jeremygale.com](mailto:jeremy@jeremygale.com)
 
 ------
