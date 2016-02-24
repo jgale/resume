@@ -1,1 +1,799 @@
-My Page
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>Jeremy Gale | Technical Product Manager, Senior iOS Developer</title>
+<style type="text/css">
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+p,
+pre {
+  margin: 1em 0;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+small {
+  font-size: 75%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body.pdf {
+  color: black;
+}
+body.pdf a {
+  text-decoration: none;
+  color: black;
+}
+body.pdf .container {
+  width: 1050px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: none;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+body.pdf .resume {
+  position: relative;
+  padding: 40px 80px;
+}
+body.pdf a[href$='.pdf'] {
+  display: none;
+}
+body.pdf h1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  font-size: 48px;
+  text-transform: none;
+}
+body.pdf h2 {
+  letter-spacing: 0;
+  font-weight: lighter;
+}
+body.pdf h3 {
+  float: left;
+  width: 20%;
+  font-style: normal;
+}
+body.pdf h3+p {
+  float: left;
+  width: 80%;
+}
+body.pdf blockquote {
+  top: 40px;
+  right: 50px;
+  position: absolute;
+}
+body.pdf ul li {
+  width: 33.33%;
+  float: left;
+}
+body.pdf ul dl {
+  margin: 0;
+  padding: 0.3em 0 0;
+}
+body.pdf ul dl dt {
+  font-size: 122%;
+  font-weight: normal;
+  margin: 0 0 .75em;
+}
+body.pdf ul dl dd {
+  padding: 0 4em 0 0;
+}
+body.pdf ol {
+  float: left;
+  width: 80%;
+  margin: .7em 0 0;
+}
+body.pdf ol li {
+  width: 33%;
+  margin: 0;
+}
+body.pdf ol li:nth-child(3n) {
+  width: 34%;
+}
+body.pdf ol li:nth-child(1),
+body.pdf ol li:nth-child(2),
+body.pdf ol li:nth-child(3) {
+  border-top: none;
+}
+body.pdf dl {
+  margin: .7em 0 0;
+  page-break-inside: avoid !important;
+  display: block;
+}
+body.pdf dl strong {
+  float: right;
+  margin-top: -2em;
+}
+body.pdf dl em {
+  font-size: 130%;
+  font-style: normal;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, serif;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+ul dl dt {
+  font-family: 'Helvetica Neue Light', 'Helvetica', Arial, serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  background: whiteSmoke;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+.resume {
+  position: relative;
+  padding: 10px 20px;
+}
+a {
+  color: #990003;
+}
+a[href$='.pdf'] {
+  display: inline-block;
+  background: #666;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+}
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 18px auto;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-top: 1px solid #CCC;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-weight: lighter;
+}
+h3 {
+  margin: 0;
+  padding: 0 0 .5em;
+  font-size: 150%;
+  font-weight: bold;
+}
+h3+p {
+  margin: 0 0 16px;
+  padding: 0;
+  display: block;
+  font-size: 104%;
+  line-height: 24px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: table;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+ul dl {
+  margin: .3em 0 0;
+  padding: 0;
+  width: 100%;
+}
+ul dl dt {
+  font-size: 100%;
+}
+ul dl dd {
+  margin: 0 0 1em;
+  padding: 0 2em 0 0;
+  font-size: .8em;
+  line-height: 1.5em;
+}
+ol {
+  margin: 0;
+  padding: 0 0 .75em;
+  width: 80%;
+  display: inline-block;
+}
+ol li {
+  margin: 0 0 0 1em;
+  padding: 0;
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  float: left;
+  list-style: none;
+  line-height: 24px;
+  font-size: 14px;
+}
+ol li:nth-child(1) {
+  border-top: none;
+}
+dl {
+  float: left;
+  display: block;
+  width: 75%;
+  margin: 0;
+  padding: 0;
+}
+dl dt {
+  margin: 0;
+  padding: 0;
+  font-size: 140%;
+}
+dl dd {
+  margin: 0 0 1.5em;
+  padding: 0;
+  font-size: 80%;
+  line-height: 1.4em;
+}
+dl strong {
+  display: block;
+}
+dl em {
+  display: block;
+  font-size: 110%;
+  margin: .15em 0 .5em;
+  font-style: bold;
+}
+dl dd li {
+  width: 100%;
+  margin: 0 1em 1em;
+  list-style-type: square;
+}
+dl dt {
+  display: block;
+  clear: both;
+}
+dl dt {
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
+h3 + dl dt:first-child {
+  border: 0;
+  padding-top: 0;
+}
+dl dd p:first-child {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+ul li dt {
+  border: 0;
+  padding-top: 0;
+}
+#footer {
+  display: none;
+}
+#footer + p {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media screen and (min-width: 37.5em) {
+  body {
+    padding: 2em 0;
+  }
+  blockquote {
+    top: 10px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: .5em;
+  }
+  ol {
+    margin: 0 0 0 1em;
+  }
+  ol li {
+    width: 50%;
+    margin: 0;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 57em) {
+  .container {
+    width: 912px;
+  }
+  .resume {
+    position: relative;
+    padding: 40px 50px;
+  }
+  blockquote {
+    top: 40px;
+    right: 50px;
+    position: absolute;
+  }
+  h1 {
+    margin-top: 0;
+    font-size: 48px;
+    letter-spacing: -1px;
+  }
+  h3 {
+    float: left;
+    width: 20%;
+  }
+  h3+p {
+    float: left;
+    width: 80%;
+  }
+  ul li {
+    width: 33.33%;
+    float: left;
+  }
+  ul dl dt {
+    font-size: 122%;
+    font-weight: normal;
+    margin-bottom: .75em;
+  }
+  ul dl dd {
+    padding: 0 4em 0 0;
+  }
+  ol {
+    float: left;
+    width: 80%;
+    margin: .6em 0 0;
+  }
+  ol li {
+    width: 33%;
+    margin: 0;
+  }
+  ol li:nth-child(3n) {
+    width: 34%;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2),
+  ol li:nth-child(3) {
+    border-top: none;
+  }
+  dl strong {
+    float: right;
+    margin-top: -2em;
+  }
+  dl em {
+    font-size: 130%;
+    font-style: normal;
+  }
+}
+
+</style>
+</head>
+
+<body class="">
+
+<div class="container">
+    <div class="resume">
+        <h1>Jeremy Gale</h1>
+
+<h2>Technical Product Manager, Senior iOS Developer</h2>
+
+<blockquote>
+  <p><a href="jeremy-gale.pdf">Download PDF</a></p>
+</blockquote>
+
+<hr />
+
+<h3 id="profile">Profile</h3>
+
+<p>Passionate leader with a love for mobile. I&#8217;m deeply motivated by products I believe in. I like scratching itches and I sweat the small stuff.</p>
+
+<hr />
+
+<h3 id="skills">Skills</h3>
+
+<ul>
+<li><dl>
+<dt>Technical Leadership</dt>
+<dd>Built a startup from scratch while wearing many hats:
+recruiting, hiring, technology selection, engineering management, sales.<br />
+~4 years</dd>
+</dl></li>
+<li><dl>
+<dt>Product Management</dt>
+<dd>Steering direction of numerous mobile products. Fanatical about 
+details. Strong communicator and voice for the user.<br />
+~4 years</dd>
+</dl></li>
+<li><dl>
+<dt>iOS Development</dt>
+<dd>Making iOS apps since 2008. Objective-C expert, Swift newbie.
+Have built and released my <a href="http://www.forcegrind.com/calgaryeats">own</a> <a href="http://www.forcegrind.com/eatcanada">apps</a> from scratch.<br />
+~6 years</dd>
+</dl></li>
+</ul>
+
+<hr />
+
+<h3 id="technical">Tech</h3>
+
+<ol>
+<li>Objective-C</li>
+<li>Swift</li>
+<li>Core Data</li>
+<li>AFNetworking</li>
+<li>Interface Builder</li>
+<li>Xcode</li>
+<li>Java</li>
+<li>Python</li>
+<li>C/C++</li>
+<li>Ruby on Rails (Beginner)</li>
+<li>Firmware</li>
+<li>Git</li>
+</ol>
+
+<hr />
+
+<h3 id="experience">Experience</h3>
+
+<dl>
+<dt>AppColony</dt>
+<dd>
+<p>CTO
+<strong>2012-Present</strong></p>
+
+<p>First technical hire of a startup that ideates and builds our own mobile-based products. Recruited and hired a technical team from scratch. Built the company culture.</p>
+
+<h4>Summary of accomplishments:</h4>
+
+<ul>
+<li>Recruited and hired technical team (15 developers) from scratch. Engineering Manager for the team</li>
+<li>Selected entire technology stack (native iOS and Android apps, Ruby on Rails backend, Rails and JavaScript frontend, hosted on Heroku)</li>
+<li>iOS development including mentoring junior developers on <a href="https://itunes.apple.com/ca/app/craft-beer-market/id655145623?mt=8">CRAFT Beer Market</a> and <a href="http://www.makeshift.ca">MakeShift</a> apps</li>
+<li>Scrum Master for teams of 3-10 developers, QAs, designers, copywriters</li>
+<li>Product Management of multiple mobile &amp; web-based products. Prioritizing feature development by synthesizing customer feedback, balancing with strategic business directives, and weighing technical feasibility/difficulty</li>
+<li>Measured and monitored web and app analytics to improve user engagement, sign-ups, conversion rates, and other important business metrics</li>
+<li>Sales and Partner development role for <a href="http://www.makeshift.ca">MakeShift</a>, a scheduling app for shift workers to view their schedule
+on their phone, request available shifts, and exchange shifts with co-workers </li>
+<li>Equally comfortable demoing to CEOs or working closely with developers on technical requirements</li>
+</ul>
+</dd>
+
+<dt>Calgary Scientific</dt>
+<dd>
+<p>Mobile Development Tech Lead
+<strong>2008-2011</strong></p>
+
+<p>Lead team from prototype stage through to release of the second ever FDA-approved medical imaging app for iOS and Android.</p>
+
+<h4>Summary of accomplishments:</h4>
+
+<ul>
+<li>Technical lead and Scrum Master for 6-person mobile team (Developers, QA, Product Manager)</li>
+<li>ResolutionMD allows on-call neurologists or radiologists to review a CT or MRI scan from their smartphone with no patient data stored on device</li>
+<li>First iOS developer at the company, extensive Objective-C experience with iPhone and universal iPhone/iPad apps</li>
+<li>Created an iOS automated build system to generate multiple white-labeled versions from the same source code</li>
+<li>Technical liaison for multiple Fortune-500 partners on the white-labeled version of their app, adding features in scalable way for all partners</li>
+<li>Worked on core C++/OpenGL rendering engine, Flash, Silverlight, .NET Windows clients</li>
+</ul>
+</dd>
+
+<dt>Google</dt>
+<dd>
+<p>Software Engineer
+<strong>2005-2008</strong></p>
+
+<p>Progressed from junior engineer through Tech Lead on the Platforms team responsible for the low-level infrastructure (software and hardware) that runs Google.</p>
+
+<h4>Summary of accomplishments:</h4>
+
+<ul>
+<li>Worked on System Test Software team to develop infrastructure that puts thousands of new and repaired Google servers through automated hardware tests</li>
+<li>Technical lead for 6-person team responsible for delivering a distributed log storage and analysis system. Python clients stream logfiles to a C++ server, which stores them in a NoSQL database</li>
+<li>Personally responsible for gathering requirements, overall system design, interaction with project management, and client implementation</li>
+<li>Developed front-end tools (CLI and GUI) to retrieve and analyze stored logfiles</li>
+<li>Enhanced a Python-based system to automatically run 24-hr hardware burn-in test, aggregate results, and present required hardware swaps to data center technicians</li>
+<li>Implemented a battery test in Python to ensure battery-backed power supplies can keep a server up for 45 seconds in the event of power failure</li>
+<li>Mentored new employees and hosted interns. Significantly contributed to hiring. Personally conducted over 45 interviews</li>
+</ul>
+</dd>
+
+<dt>Force Grind</dt>
+<dd>
+<p>Principal
+<strong>2011-Present</strong></p>
+
+<p>Freelance development &amp; design of numerous iOS apps.</p>
+
+<h4>Summary of accomplishments:</h4>
+
+<ul>
+<li>Contracted with Robots and Pencils to develop multiple apps for their clients</li>
+<li>Lead iOS developer and project manager for a UK marketing app with millions of downloads</li>
+<li>Developed major new sports marketing app from scratch in partnership with Nike and R/GA</li>
+<li>Worked on internal app for pilots to communicate on their iPad via satellite, and log trip information</li>
+<li>Developed an iPad app for an airline to audit their procedures and generate report PDFs</li>
+<li>Developed my own <a href="http://www.forcegrind.com/calgaryeats">app versions</a> of Calgary restaurant critic John Gilchrist&#8217;s books, shared profit with the author</li>
+<li>Partnered with John Gilchrist and 9 other Canadian restaurant critics to create the <a href="http://www.forcegrind.com/eatcanada">Eat Canada</a> app for Canadian business travellers to find the ideal restaurant for a business meal. Developed a simple Ruby on Rails CMS for updating restaurant listings</li>
+</ul>
+</dd>
+</dl>
+
+<hr />
+
+<h3 id="education">Education</h3>
+
+<ul>
+<li><dl>
+<dt>B.Sc, Computer Engineering</dt>
+<dd>University of Calgary, 2004.
+GPA: 3.91</dd>
+</dl></li>
+<li><dl>
+<dt>APEGA Gold Medal</dt>
+<dd>Top graduate in Computer Engineering, 2004.</dd>
+</dl></li>
+<li><dl>
+<dt>Internship @ SMART Technologies</dt>
+<dd>Mike Ward Internship Prize for intern who best demonstrates a “Superior Graduate”.</dd>
+</dl></li>
+</ul>
+
+<hr />
+
+<h3 id="footer">Footer</h3>
+
+<p>Jeremy Gale &#8212; <a href="jeremy@jeremygale.com">jeremy@jeremygale.com</a></p>
+
+<hr />
+
+    </div>
+</div>
+
+</body>
+</html>
