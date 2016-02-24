@@ -6,7 +6,7 @@ body.pdf {
         color: black;
     }
     .container {
-        width: 1000px;
+        width: 1050px;
         margin: 0 auto;
         padding: 0;
         background: none;
@@ -54,6 +54,14 @@ body.pdf {
         width: 33.33%;
         float: left;
     }
+
+    /* Something like this might work if I understood CSS
+    #experience ul li {
+        width: 100%;
+        float: left;
+    }
+    */
+
     ul dl {
         margin: 0;
         padding: 0.3em 0 0;
