@@ -61,8 +61,8 @@ Have built and released my [own](http://www.forcegrind.com/calgaryeats) [apps](h
     * Selected entire technology stack (native iOS and Android apps, Ruby on Rails backend, Rails and JavaScript frontend, hosted on Heroku)
     * iOS development including mentoring junior developers on [CRAFT Beer Market](https://itunes.apple.com/ca/app/craft-beer-market/id655145623?mt=8) and [MakeShift](http://www.makeshift.ca) apps
     * Scrum Master for teams of 3-10 developers, QAs, designers, copywriters
-    * Product Management of multiple mobile & web-based products. Synthesizing and prioritizing feature requests from customers
-with strategic directions for the product
+    * Product Management of multiple mobile & web-based products. Prioritizing feature development by synthesizing customer feedback, balancing with strategic business directives, and weighing technical feasibility/difficulty
+    * Measured and monitored web and app analytics to improve user engagement, sign-ups, conversion rates, and other important business metrics
     * Sales and Partner development role for [MakeShift](http://www.makeshift.ca), a scheduling app for shift workers to view their schedule
 on their phone, request available shifts, and exchange shifts with co-workers 
     * Equally comfortable demoing to CEOs or working closely with developers on technical requirements
