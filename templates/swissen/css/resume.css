@@ -17,6 +17,8 @@ h1, h2, h3, h4, ul dl dt {
     font-family: 'Helvetica Neue Light', 'Helvetica', Arial, serif;
 }
 
+/* Looks cool, but pretty distinctive */
+/*
 h1:before{
     content: "+";
     font-weight: bold;
@@ -25,6 +27,7 @@ h1:before{
     position: relative;
     top: -0.4em;
 }
+*/
 
 .container {
     margin: 0 auto;
@@ -84,9 +87,9 @@ h1 {
 h2 {
     margin: 0;
     padding: 0;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-weight: lighter;
 }
 
 h3 {
@@ -186,7 +189,7 @@ dl dd li{width: 100%; margin: 0 1em 1em; list-style-type: square;}
 dl dt{display: block; clear: both;}
 dl dt{border-top: 1px solid #ccc; padding-top: 1em;}
 h3 + dl dt:first-child{border: 0;padding-top: 0;}
-dl dd p:first-child{font-weight: bold; text-transform: uppercase; font-size: 1.2em;}
+dl dd p:first-child{font-weight: bold; font-size: 1.2em;}
 
 ul li dt{border: 0; padding-top: 0;}
 

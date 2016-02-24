@@ -76,8 +76,8 @@
         letter-spacing: -1px;
     }
     h2 {
-        text-transform: uppercase;
-        letter-spacing: 3px;
+        /*text-transform: uppercase;*/
+        /*letter-spacing: 3px;*/
     }
     
     h3 {

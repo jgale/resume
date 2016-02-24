@@ -1,5 +1,5 @@
 # Jeremy Gale
-## Technical & Product Manager, Senior iOS Developer
+## Technical Product Manager, Senior iOS Developer
 
 > [Download PDF](jeremy-gale.pdf)  
 
@@ -14,19 +14,19 @@ Passionate leader with a love for mobile. I'm deeply motivated by products I bel
 ### Skills {#skills}
 
 * Technical Leadership
-  : Experience building a startup from scratch while wearing many hats:
+  : Built a startup from scratch while wearing many hats:
 recruiting, hiring, technology selection, engineering management, sales.  
-  ~ 4 years
+  ~4 years
 
 * Product Management
   : Steering direction of numerous mobile products. Fanatical about 
 details. Strong communicator and voice for the user.  
-  ~ 4 years
+  ~4 years
 
 * iOS Development
   : Making iOS apps since 2008. Objective-C expert, Swift newbie.
 Have built and released my [own](http://www.forcegrind.com/calgaryeats) [apps](http://www.forcegrind.com/eatcanada) from scratch.  
-  ~ 6 years
+  ~6 years
 
 -------
 
@@ -47,7 +47,7 @@ Have built and released my [own](http://www.forcegrind.com/calgaryeats) [apps](h
 
 ------
 
-### Work {#work}
+### Experience {#experience}
 
   AppColony
   : CTO
@@ -59,13 +59,12 @@ Have built and released my [own](http://www.forcegrind.com/calgaryeats) [apps](h
 
     * Recruited and hired technical team (15 developers) from scratch. Engineering Manager for the team
     * Selected entire technology stack (native iOS and Android apps, Ruby on Rails backend, Rails and JavaScript frontend, hosted on Heroku)
-    * iOS development including mentoring junior developers on [CRAFT Beer Market](https://itunes.apple.com/ca/app/craft-beer-market/id655145623?mt=8) app, and [MakeShift](http://www.makeshift.ca) app
+    * iOS development including mentoring junior developers on [CRAFT Beer Market](https://itunes.apple.com/ca/app/craft-beer-market/id655145623?mt=8) and [MakeShift](http://www.makeshift.ca) apps
     * Scrum Master for teams of 3-10 developers, QAs, designers, copywriters
     * Product Management of multiple mobile & web-based products. Synthesizing and prioritizing feature requests from customers
 with strategic directions for the product
-    * Sales and Partner development role for MakeShift, a scheduling app for shift workers to view their schedule
+    * Sales and Partner development role for [MakeShift](http://www.makeshift.ca), a scheduling app for shift workers to view their schedule
 on their phone, request available shifts, and exchange shifts with co-workers 
-    * Worked closely with QA to build products with excellent stability and polish
     * Equally comfortable demoing to CEOs or working closely with developers on technical requirements
 
 
@@ -92,13 +91,13 @@ on their phone, request available shifts, and exchange shifts with co-workers
 
     #### Summary of accomplishments:
 
-    * Worked on System Test Software group to develop infrastructure that would put thousands of new and repaired Google servers through automated hardware tests
-    * Enhanced a Python-based system to automatically run 24-hr hardware burn-in test, aggregate results, and list required hardware swaps for data center technicians
+    * Worked on System Test Software team to develop infrastructure that puts thousands of new and repaired Google servers through automated hardware tests
     * Technical lead for 6-person team responsible for delivering a distributed log storage and analysis system. Python clients stream logfiles to a C++ server, which stores them in a NoSQL database
     * Personally responsible for gathering requirements, overall system design, interaction with project management, and client implementation
     * Developed front-end tools (CLI and GUI) to retrieve and analyze stored logfiles
-    * Implemented a battery test in Python to ensure battery-backed power supplies can hold up a server for 45 seconds in the event of power failure
-    * Mentored new employees, hosted interns. Significantly contributed to hiring. Personally conducted over 45 interviews
+    * Enhanced a Python-based system to automatically run 24-hr hardware burn-in test, aggregate results, and present required hardware swaps to data center technicians
+    * Implemented a battery test in Python to ensure battery-backed power supplies can keep a server up for 45 seconds in the event of power failure
+    * Mentored new employees and hosted interns. Significantly contributed to hiring. Personally conducted over 45 interviews
 
 
   Force Grind
@@ -113,8 +112,8 @@ on their phone, request available shifts, and exchange shifts with co-workers
     * Lead iOS developer and project manager for a UK marketing app with millions of downloads
     * Developed major new sports marketing app from scratch in partnership with Nike and R/GA
     * Worked on internal app for pilots to communicate on their iPad via satellite, and log trip information
-    * Developed on iPad app for an airline to audit their procedures and generate report PDFs
-    * Developed my own [app versions](http://www.forcegrind.com/calgaryeats) of local restaurant critic John Gilchrist's books, shared profit with the author
+    * Developed an iPad app for an airline to audit their procedures and generate report PDFs
+    * Developed my own [app versions](http://www.forcegrind.com/calgaryeats) of Calgary restaurant critic John Gilchrist's books, shared profit with the author
     * Partnered with John Gilchrist and 9 other Canadian restaurant critics to create the [Eat Canada](http://www.forcegrind.com/eatcanada) app for Canadian business travellers to find the ideal restaurant for a business meal. Developed a simple Ruby on Rails CMS for updating restaurant listings
 
 
